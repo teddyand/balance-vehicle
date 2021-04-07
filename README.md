@@ -1,7 +1,8 @@
 ## my smart vehicle rudiment
 
 ### completeness I 
-![vehicle aspect](https://raw.githubusercontent.com/wiki/teddyand/balance-vehicle/images/6c9990bbb34dbef5195f69ad20ca183b64601277/completeness.jpg)
+<img src="https://raw.githubusercontent.com/wiki/teddyand/balance-vehicle/images/6c9990bbb34dbef5195f69ad20ca183b64601277/completeness.jpg" align="left" height="240" width="240" >
+
 
 中文名称“圆满一号”:采用ATMEG328P-AU主控芯片（arduino uno）3.7V锂电池供电、 配有升压电路、充电电路、电机驱动电路、程序下载电路、蓝牙接口、自动循线接口、超声波测距接口。
 采用N20减速电机。具有噪声小、运动灵活、充电方便（使用国产android手机充电器即可）的特点。

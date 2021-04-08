@@ -8,4 +8,7 @@
 采用N20减速电机。具有噪声小、运动灵活、充电方便（使用国产android手机充电器即可）的特点。
 并采用多种编程方式：传统[arduinoIDE](https://www.arduino.cc/en/guide/windows)或者[mblock下图形编程方式](https://mblock.makeblock.com/en-us/download/)均可。
 先期预实现蓝牙遥控功能，之后实现循迹及车速控制功能，最终期望与大数据云平台连通实现远程遥控定位。
+
+[慈云一号视频](https://mp.weixin.qq.com/s/lyUVf8Sz5LZWG-8bcWuVLQ) 
+
 [参考](https://www.instructables.com/%E8%87%AA%E9%80%A0%E4%BD%A0%E7%9A%84Arduino-UNO%E6%9D%BF/)

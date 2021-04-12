@@ -1,6 +1,6 @@
 ## my smart vehicle rudiment
 
-### cordial cloud I 
+### Cordial cloud I
 <img src="https://raw.githubusercontent.com/wiki/teddyand/balance-vehicle/images/6c9990bbb34dbef5195f69ad20ca183b64601277/completeness.jpg" align="left" height="240" width="240" >
 
 

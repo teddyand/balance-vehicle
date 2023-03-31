@@ -12,3 +12,9 @@
 [慈云一号视频](https://mp.weixin.qq.com/s/lyUVf8Sz5LZWG-8bcWuVLQ) 
 
 [参考](https://www.instructables.com/%E8%87%AA%E9%80%A0%E4%BD%A0%E7%9A%84Arduino-UNO%E6%9D%BF/)
+
+After a long time meditation, I give the answer to my project in which there are 4 main core:
+1. master(AA_D):final assembly adaptation deparment;
+2. EC_D: electronic control department;
+3. CA_D: circuit analysis department;
+4. AC_D: algorithm control department;

@@ -18,3 +18,5 @@ After a long time meditation, I give the answer to my project in which there are
 2. EC_D: electronic control department;
 3. CA_D: circuit analysis department;
 4. AC_D: algorithm control department;
+
+dfa

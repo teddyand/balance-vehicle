@@ -14,8 +14,8 @@
 [参考](https://www.instructables.com/%E8%87%AA%E9%80%A0%E4%BD%A0%E7%9A%84Arduino-UNO%E6%9D%BF/)
 
 After a long time meditation, I give the answer to my repository in which there are 4 branches:
-1. master(AA_D):final assembly adaptation deparment(总装适配);
-2. EC_D: electronic control department（电气控制）;
-3. CA_D: circuit analysis department（电路分析）;
-4. AC_D: algorithm control department（算法控制）;
+1. master(aa_d):final assembly adaptation deparment(总装适配);
+2. ec_d: electronic control department（电气控制）;
+3. ca_d: circuit analysis department（电路分析）;
+4. ac_d: algorithm control department（算法控制）;
 

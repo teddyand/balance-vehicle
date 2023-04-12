@@ -10,3 +10,12 @@
 6. 支持输入。模拟输入（3.2V 最大输入）。
 7. 支持编程。 支持C/C++、兼容Arduino IDE、MicroPython、Mixly、Mblock等图形化。
 8. 供电方式。DC6——9V。
+
+#### arduino开发
+##### 安装arduino(略)
+##### 配置ESP32开发资源
+1. 启动Arduino IDE。
+2. 设置首选项。在弹出的“首选项”对话框中输入附加开发版管理资源网址"https://dl.espressif.com/dl/package_esp32_index.json" 并确认。
+3. 选择 “工具” ——>“开发板：Arduino UNO”——>“开发板管理器”，在弹出的“开发板管理器”对话框的搜索栏输入“esp32”,选择新版本。
+4. 添加ESP开发板。选择“工具”——>“开发板”在右侧的开发板中选择"WeMos WiFi&Buetooth Battery"开发板。
+5. 测试Blink程序（点灯实验）。

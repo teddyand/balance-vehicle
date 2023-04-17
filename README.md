@@ -11,7 +11,7 @@
 7. 支持编程。 支持C/C++、兼容Arduino IDE、MicroPython、Mixly、Mblock等图形化。
 8. 供电方式。DC6——9V。
 
-#### arduino开发
+#### 一、arduino开发
 ##### 安装arduino(略)&配置ESP32开发资源
 1. 启动Arduino IDE。
 2. 设置首选项。在弹出的“首选项”对话框中输入附加开发版管理资源网址"https://dl.espressif.com/dl/package_esp32_index.json" 并确认。
@@ -48,3 +48,25 @@ BluetoothSerial.read()
 该函数读取缓冲区一个字节数据，每读一个字节，就从缓冲区移除一个字节数据。返回值为进入接收缓冲区的第一个字节数据。
 
 程序见测试目录
+
+#### 二、MicroPython开发
+##### [MicroPython](https://micropython.org/)
+1. 简介
+MicroPython是Python3编程语言的一个完整软件实现，包括Python标准库的一小部分，经过优化可在微控制器和受限环境中运行。Pyboard是官方提供的运行MicroPython的电子电路板，它可以运行MicroPython。
+MicroPython用C语言编写，被优化运行在微控制器之上，是运行在微控制器硬件之上的完全的Python编译器和运行实时系统。MicroPython提供用户一个交互式提示符（REPL）来立即执行所支持命令。除包含核心Python库，还包括了给予编程者访问底层硬件的模块。
+MicroPython包括许多先进的功能，如交互提示、任意精度整数、闭包、列表理解、生成器、异常处理等。而且解构紧凑，只需256KB的代码空间和16kb的内存就可以运行。
+**MicroPython努力与普通Python尽可能兼容，这样用户了解Python就可以了解MicroPython。另一方面，对MicroPython越了解，在Python中的表现越好。**
+MicroPython保留了Python的特点（脚本语言、语法简洁、使用简单、功能强大、易于扩展、开源且技术支持强大、封装大量库、网络功能和计算功能较强、方便和其他语言配合使用，开发自己的库），一些常用的库封装到了MicroPython中，包括部分传感器、组件、驱动，用户调用相关函数，就可实现LED控制、PWM控制、ADC/DAC控制，使用UART、SPI、I2C，与外部设备交换数据，读写传感器数据等。MicroPython降低了开发难度，且减少大量重复劳动，可以加快开发速度，提高开发效率。
+
+2. 适用硬件
+MicroPython最早应用于STM32F4微控制器，目前可以在多种嵌入式硬件平台上运行，包括STM32L4、STM32F7、ESP8266、CC3200、MSP432、XMC4700、RT8195等
+
+3. 特点
+MicroPython为嵌入式开发带来一种新的编程方式和思维，就像以前嵌入式开发人员从汇编语言进入C语言开发一样。使用MicroPython的目的不是要取代C语言，而是让开发人员可以将重点放在应用层的开发上，不必再从底层开始构建系统，从应验验证的硬件系统和软件架构开始设计，减少底层硬件设计和软件调试的时间，提高开发效率。降低了嵌入式开发者的门槛，提高硬件选择范围（从51系列开始入门过度到STM32再到系统级别的应用）。使得具备一定软硬件调试手段的初级程序员就可以入门中高级软硬件系统开发项目：网络应用、物联网应用、机器人应用等等。
+
+MicroPython的特点是简单易用、移植好、程序便于维护、但采用MicroPython和其他脚本语言（java、javascript）开发的程序，其运行效率低。然而，目前随着硬件研发水平的提升ISP、 Flash等片上技术的提升，牺牲一部分的芯片资源以换取开发效率的提升是一件值得尝试的事情。（也许困难总是暂时的，办法总比问题多是应该相信的）
+
+正如Arduino将一般电子技术人员、创客带入了嵌入式开发，让他们勇于尝试硬件开发和应用，那么MicroPython也完全可以作为一种工具，用以开发实用产品，让普通爱好者尝试快速原型开发的乐趣。俗语说：“一枝独秀不是春，百花齐放满园春。”像Arduino、MicroPython、 Espruino、mblock、Mixly、Scratch等这样的环境越来越多，开发者们也许要面临着选择困难的幸福了呢！！
+
+##### [Thony](https://thonny.org/)开发环境
+[For more reference](https://github.com/micropython/micropython/tree/master/ports/esp32) about firmware flash、make、  [origin](https://micropython.org/download/GENERIC_S3/) precise download and flash  [bluetooth application](https://blog.csdn.net/qq_39784672/article/details/119275695)

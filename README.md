@@ -68,5 +68,17 @@ MicroPython的特点是简单易用、移植好、程序便于维护、但采用
 
 正如Arduino将一般电子技术人员、创客带入了嵌入式开发，让他们勇于尝试硬件开发和应用，那么MicroPython也完全可以作为一种工具，用以开发实用产品，让普通爱好者尝试快速原型开发的乐趣。俗语说：“一枝独秀不是春，百花齐放满园春。”像Arduino、MicroPython、 Espruino、mblock、Mixly、Scratch等这样的环境越来越多，开发者们也许要面临着选择困难的幸福了呢！！
 
+
+##### [开发准备(快速)](https://docs.micropython.org/en/latest/esp8266/quickref.html)
+1. [下载固件](https://micropython.org/download/#esp8266)
+2. 安装工具`pip install esptool`
+3. 擦除flash内存 `esptool.py --port /dev/ttyUSB0 erase_flash`
+4. 部署固件` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170108-v1.8.7.bin` [more reference](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro)
+5. 编辑器编写文件*.py
+6. 安装rshell`pip install rshell`并连接REPL。输入指令`rshell --buffer-size 1024 --editor /usr/bin/subl -p /dev/ttyUSB*` [more detail](https://manpages.ubuntu.com/manpages/jammy/en/man1/rshell.1.html)
+7. 进入/pyboard环境输入repl cp /（刚编辑的py文件） /pyboard
+8. 重启，按下复位键重启
+
+
 ##### [Thony](https://thonny.org/)开发环境
 [For more reference](https://github.com/micropython/micropython/tree/master/ports/esp32) about firmware flash、make、  [origin](https://micropython.org/download/GENERIC_S3/) precise download and flash  [bluetooth application](https://blog.csdn.net/qq_39784672/article/details/119275695)

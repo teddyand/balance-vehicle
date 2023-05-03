@@ -74,8 +74,8 @@ MicroPython的特点是简单易用、移植好、程序便于维护、但采用
 2. 安装工具`pip install esptool`
 3. 擦除flash内存 `esptool.py --port /dev/ttyUSB0 erase_flash`
 4. 部署固件` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170108-v1.8.7.bin` [more reference](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro)
-5. 编辑器编写文件*.py
-6. 安装rshell`pip install rshell`并连接REPL。输入指令`rshell --buffer-size 1024 --editor /usr/bin/subl -p /dev/ttyUSB*` [more detail](https://manpages.ubuntu.com/manpages/jammy/en/man1/rshell.1.html)
+5. 安装rshell`pip install rshell`并连接REPL。输入指令`rshell --buffer-size 1024 --editor /usr/bin/subl -p /dev/ttyUSB*` [more detail](https://manpages.ubuntu.com/manpages/jammy/en/man1/rshell.1.html)
+6. 编辑器编写文件 edit *.py
 7. 进入/pyboard环境输入repl cp /（刚编辑的py文件） /pyboard
 8. 重启，按下复位键重启
 

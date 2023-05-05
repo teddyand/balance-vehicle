@@ -79,6 +79,20 @@ MicroPython的特点是简单易用、移植好、程序便于维护、但采用
 7. 进入/pyboard环境输入repl cp /（刚编辑的py文件） /pyboard
 8. 重启，按下复位键重启
 
+###### PWM控制LED的亮度
+将test目录下pwm_led.pay加载到/pyboard目录运行以下命令：
+```
+>>> from pwm_led import *
+>>> pled=PWM_LED(2)
+>>> pled.change_duty(0)
+>>> pled.change_duty(100)
+>>> pled.change_duty(500)
+>>> pled.change_duty(800)
+>>> pled.change_duty(1023)
+>>> pled.deinit()
+```
+###### 呼吸灯
+将test目录下pulse.py加载到/pyboard目录
 
 ##### [Thony](https://thonny.org/)开发环境
 [For more reference](https://github.com/micropython/micropython/tree/master/ports/esp32) about firmware flash、make、  [origin](https://micropython.org/download/GENERIC_S3/) precise download and flash  [bluetooth application](https://blog.csdn.net/qq_39784672/article/details/119275695)

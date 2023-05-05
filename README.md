@@ -94,5 +94,10 @@ MicroPython的特点是简单易用、移植好、程序便于维护、但采用
 ###### 呼吸灯
 将test目录下pulse.py加载到/pyboard目录
 
+###### Timer定时器
+在实际应用中，需要定期处理某个事件，就像闹钟。Micropython提供timer类让用户控制芯片内部定时器。用中断触发去处理事件test目录中led_timer.py例程值得好好学习
+* 构造对象class machine.Timer(id,…) 构造给定id的新计时器对象。id为任意正整数。
+* 初始化定时器Timer.init(*,mode=Timer.PERIODIC,period=-1,callback=none)mode:定时器模式之一Timer.ONE_SHOT:计时器运行一次，直到配置完毕通道期限到期；Timer.PERIODIC:定时器以通道配置频率定期运行。period:定期执行周期，单位是ms,每隔period ms执行一次取0<period<=3435973836
+
 ##### [Thony](https://thonny.org/)开发环境
 [For more reference](https://github.com/micropython/micropython/tree/master/ports/esp32) about firmware flash、make、  [origin](https://micropython.org/download/GENERIC_S3/) precise download and flash  [bluetooth application](https://blog.csdn.net/qq_39784672/article/details/119275695)

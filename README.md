@@ -6,7 +6,7 @@
 采用esp32-wroom-32芯片(esp8266暂代)
 ![分压电路](https://cdn.sparkfun.com/assets/4/0/3/a/e/511948ffce395f7f47000000.png)
 Esp8266数模转换电路可采样0～1.0v电压，对于超出范围电压需要采用分压电路采样（如上图）
-\[\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2} \]
+$\sqrt{3x-1}+(1+x)^2$
 
 #### 循迹电路
 

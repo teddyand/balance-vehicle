@@ -68,6 +68,7 @@ MicroPython的特点是简单易用、移植好、程序便于维护、但采用
 
 正如Arduino将一般电子技术人员、创客带入了嵌入式开发，让他们勇于尝试硬件开发和应用，那么MicroPython也完全可以作为一种工具，用以开发实用产品，让普通爱好者尝试快速原型开发的乐趣。俗语说：“一枝独秀不是春，百花齐放满园春。”像Arduino、MicroPython、 Espruino、mblock、Mixly、Scratch等这样的环境越来越多，开发者们也许要面临着选择困难的幸福了呢！！
 
+![esp266pin](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png?ssl=1)
 
 ##### [开发准备(快速)](https://docs.micropython.org/en/latest/esp8266/quickref.html)
 1. [下载固件](https://micropython.org/download/#esp8266)

@@ -17,6 +17,6 @@ $V_{out}=V_{in}.\frac{R_{2}}{R_{1}+R_{2}}$
 
 $V_{in} = 5V$;  $R_{1} = 20K\Omega$; $R_{2}\in(0...5)K\Omega$;
 
-$V_{out}\in(0...1)V$
+$V_{out}\in(0...1)V$ ok
 
 #### 测速电路

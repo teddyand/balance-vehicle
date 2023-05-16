@@ -20,5 +20,8 @@ After a long time meditation, I give the answer to my repository in which there 
 4. ac_d: algorithm control department（算法控制）;
 
 #### 测速模块
-![测速模块](https://www.guyuehome.com/Uploads/wp/2020/11/52.png)
+![测速模块](https://cbu01.alicdn.com/img/ibank/2019/164/157/10319751461_642346158.310x310.jpg)
 ![模块安装](https://www.guyuehome.com/Uploads/wp/2020/11/56.png)
+
+**准备一些尼龙柱来固定电路板。尼龙柱的尺寸跟铜柱尺寸相同M3，30CM。也可以顺便买一点尼龙螺丝。**
+

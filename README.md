@@ -19,3 +19,6 @@ After a long time meditation, I give the answer to my repository in which there 
 3. ca_d: circuit analysis department（电路分析）;
 4. ac_d: algorithm control department（算法控制）;
 
+#### 测速模块
+![测速模块](https://www.guyuehome.com/Uploads/wp/2020/11/52.png)
+![模块安装](https://www.guyuehome.com/Uploads/wp/2020/11/56.png)

@@ -20,3 +20,6 @@ $V_{in} = 5V$;  $R_{1} = 20K\Omega$; $R_{2}\in(0...5)K\Omega$;
 $V_{out}\in(0...1)V$ ok ok
 
 #### 测速电路
+![光耦机械图](https://pic2.zhimg.com/80/v2-185eb738b0e67a677b2316c44b0ef6e5_720w.webp)
+
+![电路图](https://pic1.zhimg.com/80/v2-ad45477288e95e2b6c8b1d4a47a92390_720w.webp)

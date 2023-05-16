@@ -21,4 +21,4 @@ $V_{out}\in(0...1)V$ ok ok
 
 #### 测速电路
 
-![尺寸图](https://www.ehaoan.com/uploads/allimg/190326/1-1Z326120532456.jpg)
+![尺寸图](https://ts1.cn.mm.bing.net/th/id/R-C.c39f0702208c9ceab0d35677d874fecc?rik=b72xwiMhRP1vrg&riu=http%3a%2f%2fwww.ehaoan.com%2fuploads%2fallimg%2f180520%2f1-1P520140926333.jpg&ehk=2GcjfUEn70X00PACiYzHy%2bIbtrG%2bAomif0q%2bRZW85Jk%3d&risl=&pid=ImgRaw&r=0)
